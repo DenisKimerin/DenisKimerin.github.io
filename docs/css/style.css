@@ -1,0 +1,903 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/style\.sass}line{font-family:\000032}}
+* {
+  font-family: "Roboto", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\000031}}
+header {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\000034}}
+nav {
+  height: 50px;
+  background-color: #212121; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\000038}}
+.hamburger {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000311}}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000318}}
+  .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000323}}
+  .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 27px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000326}}
+    .menu_item:last-child {
+      border-right: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000329}}
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000335}}
+  .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+    z-index: -1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000341}}
+  .subheader_official {
+    display: block;
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000349}}
+  .subheader_call {
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000358}}
+  .subheader_phone {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000368}}
+  .subheader_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_mixins\.sass}line{font-family:\000032}}
+    .subheader_btn:hover {
+      background-image: none;
+      background-color: #1eacc7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000388}}
+.promo {
+  min-height: 800px;
+  background: url("../img/bg_page_one.jpg") center center/cover no-repeat;
+  padding: 151px 0 135px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\0000392}}
+  .promo_header {
+    margin: 0;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    line-height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003101}}
+  .promo_subheader {
+    margin: 0;
+    margin-top: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    line-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003111}}
+  .promo_descr {
+    margin: 0 92px;
+    margin-top: 23px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003120}}
+  .promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 118px;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_mixins\.sass}line{font-family:\000032}}
+    .promo_btn:hover {
+      background-image: none;
+      background-color: #1eacc7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003137}}
+.reasons {
+  padding: 71px 0 65px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003139}}
+  .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003144}}
+  .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003154}}
+  .reasons_descr {
+    width: 343px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003156}}
+  .reasons_subtitle {
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003161}}
+  .reasons_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003167}}
+.lable {
+  margin: 0 auto;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 5px 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003178}}
+.title {
+  margin-top: 38px;
+  margin-bottom: 0;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003188}}
+.subtitle {
+  margin-top: 19px;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  color: #222222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003200}}
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 80px 0;
+  background: url("../img/bg_mob_app.jpg") center center/cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003205}}
+  .mobile .row {
+    margin-top: 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003208}}
+  .mobile_item {
+    position: relative;
+    width: 320px;
+    height: 280px;
+    opacity: 0.9;
+    margin: 0 auto;
+    margin-bottom: 19px;
+    padding-top: 92px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003216}}
+    .mobile_item_1 {
+      background: url("../img/mob_screen_1.png") center center/cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003218}}
+    .mobile_item_2 {
+      background: url("../img/mob_screen_2.png") center center/cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003220}}
+    .mobile_item_3 {
+      background: url("../img/mob_screen_3.png") center center/cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003222}}
+    .mobile_item_4 {
+      background: url("../img/mob_screen_4.png") center center/cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003224}}
+    .mobile_item_5 {
+      background: url("../img/mob_screen_5.png") center center/cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003226}}
+    .mobile_item_6 {
+      background: url("../img/mob_screen_6.png") center center/cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003228}}
+    .mobile_item_subtitle {
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 31px;
+      text-transform: uppercase;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003235}}
+    .mobile_item_plus {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      position: absolute;
+      bottom: 35px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 26px;
+      height: 26px;
+      background-color: #000000;
+      margin: 0 auto;
+      border-radius: 100%;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003250}}
+      .mobile_item_plus:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+        width: 14px;
+        height: 2px;
+        transition: 0.3s;
+        background-color: #1eacc7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003261}}
+      .mobile_item_plus:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+        width: 2px;
+        height: 14px;
+        background-color: #1eacc7;
+        transition: 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003272}}
+      .mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+        background-color: #ff5656; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003277}}
+.uber {
+  min-height: 897px;
+  padding: 57px 0 0px 0;
+  background: url("../img/bg_two_tone.jpg") center center/cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003283}}
+  .uber .lable_white {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #ffffff;
+    color: #070716;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 6px 15px 10px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003297}}
+  .uber .title {
+    color: #ffffff;
+    margin-top: 50px;
+    line-height: 0;
+    margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003303}}
+  .uber .subtitle {
+    margin-top: 25px;
+    color: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003307}}
+  .uber_logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 56px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003314}}
+  .uber_m_logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 56px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003321}}
+  .uber .moto {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 138px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003328}}
+.require {
+  padding: 68px 0 84px 0;
+  min-height: 919px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003332}}
+  .require_block {
+    margin: 33px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003334}}
+    .require_block_nbm {
+      margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003336}}
+  .require_title {
+    color: #1ca8c3;
+    font-size: 22px;
+    font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003340}}
+  .require_list {
+    list-style-type: none;
+    padding-left: 59px;
+    margin-top: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003344}}
+    .require_list li {
+      position: relative;
+      color: #222222;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 24px;
+      margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003351}}
+      .require_list li:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: -32px;
+        top: 2px;
+        width: 21px;
+        height: 20px;
+        background: url(../icons/blue_check.png) center center/cover no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003360}}
+  .require_description {
+    color: #1ca8c3;
+    margin-top: 22px;
+    font-size: 17px;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003367}}
+  .require .warning .require_title {
+    color: #ff5656; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003371}}
+  .require .warning .require_list li:before {
+    background: url(../icons/red_check.png) center center/cover no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003374}}
+.wwide {
+  position: relative;
+  height: 717px;
+  background: url("../img/bg_map.jpg") center;
+  padding: 49px 0 49px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003380}}
+  .wwide .lable_white {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 76px;
+    height: 24px;
+    background-color: #ffffff;
+    color: #070716;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 6px 15px 10px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003394}}
+  .wwide .title {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003401}}
+  .wwide .subtitle {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003407}}
+  .wwide_link {
+    position: absolute;
+    color: #1eacc7;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    bottom: 49px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003420}}
+footer {
+  padding: 14px 23px 39px 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003423}}
+  footer a:hover {
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003427}}
+  footer .footer_divider {
+    width: 299px;
+    height: 4px;
+    background-color: #1fbad6;
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003432}}
+  footer .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003437}}
+  footer .footer_wrapper > div {
+    width: 33%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003439}}
+    footer .footer_wrapper > div:nth-child(3) {
+      display: flex;
+      justify-content: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003442}}
+  footer .footer_social {
+    width: 160px;
+    display: flex;
+    justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003446}}
+    footer .footer_social_item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 4px;
+      width: 32px;
+      height: 32px;
+      background-color: #070716;
+      border-radius: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003455}}
+      footer .footer_social_item i {
+        color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003457}}
+  footer .footer_links {
+    width: 390px;
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003460}}
+    footer .footer_links_main {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003464}}
+      footer .footer_links_main a {
+        color: #070716;
+        font-size: 15px;
+        font-weight: 300;
+        text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003469}}
+    footer .footer_links_sub {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003473}}
+      footer .footer_links_sub a {
+        color: #999999;
+        font-size: 11px;
+        font-weight: 300;
+        text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003478}}
+    footer .footer_links_lang {
+      display: block;
+      margin: 0 auto;
+      color: #1fbad6;
+      font-size: 11px;
+      font-weight: 400;
+      margin-top: 19px;
+      text-transform: uppercase;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_general\.sass}line{font-family:\00003487}}
+  footer .xs-visible {
+    display: none; }
+
+@media (max-width: 1800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\000033}}
+  .uber_m_logo {
+    display: none; } }
+@media (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\000039}}
+  .menu_item {
+    padding-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000311}}
+  .menu_link {
+    font-size: 13px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000314}}
+  .promo_header {
+    font-size: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000316}}
+  .promo_subheader {
+    font-size: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000319}}
+  .reasons_block {
+    align-tems: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000321}}
+  .reasons_descr {
+    width: 280px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000324}}
+  .uber_m_logo {
+    display: none; } }
+@media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000333}}
+  .menu_item {
+    padding-right: 9px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000335}}
+  .menu_link {
+    font-size: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000338}}
+  .subheader_official {
+    font-size: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000340}}
+  .subheader_phone {
+    font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000343}}
+  .subheader_logo img {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000345}}
+  .subheader_btn {
+    width: 150px;
+    height: 40px;
+    font-size: 11px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000350}}
+  .promo_header {
+    font-size: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000352}}
+  .promo_subheader {
+    font-size: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000354}}
+  .promo_descr {
+    font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000356}}
+  .promo_btn {
+    width: 170px;
+    height: 50px;
+    font-size: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000361}}
+  .reasons_block {
+    flex-direction: column;
+    align-tems: crnter; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000364}}
+  .reasons_descr {
+    width: 280px;
+    margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000367}}
+  .reasons_round {
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000369}}
+  .reasons_subtitle {
+    text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000372}}
+  .uber_m_logo {
+    display: none; } }
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000379}}
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: 0.6s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000391}}
+    .menu_active {
+      left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000393}}
+    .menu_item {
+      padding-right: 0;
+      border: none;
+      margin: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000397}}
+    .menu_link {
+      font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\0000399}}
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003107}}
+    .hamburger span {
+      display: block;
+      height: 2px;
+      width: 100%;
+      background-color: white;
+      margin-bottom: 2px;
+      transition: 0.5s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003115}}
+    .hamburger_active span {
+      margin-bottom: -2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003117}}
+      .hamburger_active span:nth-child(1) {
+        transform: translateY(3px) rotate(-45deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003119}}
+      .hamburger_active span:nth-child(2) {
+        display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003121}}
+      .hamburger_active span:nth-child(3) {
+        transform: translateY(3px) rotate(45deg); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003123}}
+  .title {
+    font-size: 28px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003125}}
+  .xs-hidden {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003127}}
+  .xs-visible {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003130}}
+  .subheader_phone {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003138}}
+  .subheader_btn {
+    display: block;
+    margin-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003142}}
+  .promo_header {
+    font-size: 35px;
+    line-height: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003145}}
+  .promo_subheader {
+    font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003147}}
+  .uber {
+    min-height: 390px;
+    padding: 35px 0 0px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003150}}
+    .uber_logo {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003152}}
+    .uber_m_logo {
+      display: flex;
+      justify-content: center;
+      margin-top: 44px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003156}}
+  .uber .subtitle {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003158}}
+  .uber .title {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003160}}
+  .uber .moto {
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 35px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003167}}
+  .require {
+    padding: 36px 0 28px 0;
+    min-height: 1080px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003172}}
+  .require_title {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003174}}
+  .require_description {
+    text-align: center; } }
+@media (max-width: 575px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003184}}
+  nav {
+    height: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003186}}
+  .subheader {
+    height: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003188}}
+    .subheader_logo {
+      margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003190}}
+    .subheader_official {
+      font-size: 7px;
+      margin-top: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003193}}
+    .subheader_phone {
+      display: block;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003199}}
+    .subheader_btn {
+      display: block;
+      width: 110px;
+      height: 22px;
+      font-size: 10px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003207}}
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003210}}
+    .promo_header {
+      font-size: 30px;
+      psdding: 0 24px;
+      line-height: 35px;
+      margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003215}}
+    .promo_subheader {
+      font-size: 20px;
+      margin-top: 33px;
+      padding: 0 10px;
+      line-hight: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003220}}
+    .promo_descr {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003222}}
+    .promo_btn {
+      display: block;
+      width: 210px;
+      height: 50px;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-top: 73px;
+      margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003231}}
+  .menu {
+    width: 85%;
+    line-height: 25px;
+    z-index: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003236}}
+  .reasons {
+    padding: 22px 0 36px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003238}}
+    .reasons_block {
+      margin-top: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003240}}
+    .reasons_round {
+      width: 100px;
+      height: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003243}}
+    .reasons_descr {
+      width: 100%;
+      margin-top: 27px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003246}}
+    .reasons_subtitle {
+      font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003248}}
+  .title {
+    font-size: 16px;
+    margin-top: 12px;
+    line-height: 13px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003253}}
+  .require {
+    padding: 36px 0 28px 0;
+    min-height: 1080px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003258}}
+  .require_title {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003260}}
+  .require_description {
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003263}}
+  .wwide {
+    height: 0;
+    min-height: 360px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003266}}
+    .wwide .title {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003270}}
+    .wwide .subtitle {
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003274}}
+    .wwide_link {
+      font-size: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003277}}
+  .uber {
+    min-height: 390px;
+    padding: 35px 0 0px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003280}}
+    .uber_logo {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003282}}
+    .uber_m_logo {
+      display: flex;
+      justify-content: center;
+      margin-top: 44px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003286}}
+  .uber .subtitle {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003288}}
+  .uber .title {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003290}}
+  .uber .moto {
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 35px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/Z\:\/Academy\/Webdev\/Uber\/src\/sass\/_media\.sass}line{font-family:\00003298}}
+  .mobile_item_subtitle {
+    font-size: 18px; } }
+
+/*# sourceMappingURL=style.css.map */
